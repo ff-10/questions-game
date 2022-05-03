@@ -1,0 +1,72 @@
+.howToPlay{
+    background-color: rgba(0,0,0,.1);
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    color: #058;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;    
+}
+.howToPlay div{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 50%;
+    transition: all 400ms;
+    background-color: rgba(0,0,0,.1);
+    user-select: none;
+}
+.howToPlay div:hover{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.varContainer{ 
+    background-color: #2d3132; 
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 700;
+    position: relative;
+    user-select: none;
+}
+.varContainer:hover{
+    background-color: #058;
+}
+.varContainer:active{
+    transform: scale(.98);
+}
+
+.answeredQuestions{
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.var{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.true{
+    background-color: #50cdea;
+    width: 87.5%;
+    margin-right: 0 !important;
+    padding-left: 5px;
+    border-radius: inherit;
+}
+.wrong{
+    background-color: #F72F35;
+    width: 87.5%;
+    margin-right: 0 !important;
+    padding-left: 5px;
+    border-radius: inherit;
+}
