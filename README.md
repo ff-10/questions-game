@@ -1,4 +1,4 @@
-### questions-game
+### Questions Game
 
 ___
 
